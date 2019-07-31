@@ -1,6 +1,15 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TestTableAndForm from './TestTableAndForm';
+import TestGetAPI from './TestGetAPI';
+import TestStateLifecycle from './TestStateLifecycle';
+import TestHandlingEvents from './TestHandlingEvents';
+import TestConditionalRendering from './TestConditionalRendering';
+import TestListsKeys from './TestListsKeys';
+import TestHandleForms from './TestHandleForms';
+import TestLiftingStateUp from './TestLiftingStateUp';
+import TestComposition from './TestComposition';
 
 function App() {
   return (
@@ -19,6 +28,15 @@ function App() {
           Learn React
         </a>
       </header>
+      <TestTableAndForm />
+      <TestGetAPI/>
+      <TestStateLifecycle/>
+      <TestHandlingEvents/>
+      <TestConditionalRendering/>
+      <TestListsKeys/>
+      <TestHandleForms/>
+      <TestLiftingStateUp/>
+      <TestComposition/>
     </div>
   );
 }
